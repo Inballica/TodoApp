@@ -21,4 +21,4 @@ const InputCheck = () => {
   );
 };
 
-export default InputCheck;
+export default InputCheck; 

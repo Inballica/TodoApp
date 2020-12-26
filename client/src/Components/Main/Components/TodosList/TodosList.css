@@ -1,0 +1,16 @@
+/*clear completed btn*/
+
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+  button:focus {
+    outline: none;
+  }
+  button:hover {
+    cursor: pointer;
+  }
