@@ -7,8 +7,8 @@ const TodosList = () => {
   const todocontext = useContext(TodoContext);
   useEffect(() => {
     todocontext.getTodoList();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
   useEffect(() => {
     if (todocontext.todo && todocontext.todo.length > 0) {
       settext(
@@ -40,7 +40,7 @@ const TodosList = () => {
                   todocontext.updateTodo(t._id, text[i]);
                 }}
                 className='edit'
-              ></button>
+              >edit</button>
             </li>
           ))}
       </ul>

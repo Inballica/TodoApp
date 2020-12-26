@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import TodoContext from "../../../../context/TodoContext/TodoContext";
+
 const Filters = () => {
   const location = useLocation();
   const todocontext = useContext(TodoContext);

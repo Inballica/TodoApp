@@ -9,7 +9,7 @@ body {
   font-family: 'Pangolin', cursive;
   line-height: 1.4em;
   background: #18191a;
-  color: #42a58c;
+  color: #27caa1;
   min-width: 230px;
   max-width: 550px;
   margin: 0 auto;
@@ -46,7 +46,7 @@ body {
   font-weight:normal;
   line-height: 1.4em;
   border: 0;
-  color:rgba(124, 170, 72, 0.8);
+  color:rgba(116, 218, 49, 0.8);
   padding: 6px;
   border: 1px solid #263d5a;
   box-shadow: inset 20px -1px 5px 0 rgba(204, 196, 196, 0.658);
@@ -115,8 +115,8 @@ body {
 .todo-list li.editing {
   display: block;
   width: 506px;
-  padding: 12px 16px;
-  margin: 0 0 0 43px;
+  padding: 15px 16px;
+  margin: 0 0 0 45px;
 }
 
 .todo-list li.editing .view {
@@ -203,16 +203,21 @@ body {
   height: 45px;
   margin: auto 0;
   font-size: 15px;
-  color: #678c9b;
+  color: #7fc0da;
   margin-bottom: 11px;
   transition: color 0.2s ease-out;
 }
 
+.edit {
+  position: relative;
+  text-align: center;
+  padding-top: 15px ;
+}
 .todo-list li .edit:hover {
-  color: #458fc0;
+  color: #4cace4;
 }
 .todo-list li .edit:after {
-  content: "edit";
+  text-align: center;
 }
 .todo-list li:hover .edit {
   display: block;
@@ -239,7 +244,7 @@ body {
 .todo-count {
   float: left;
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 
@@ -253,7 +258,7 @@ body {
   position: absolute;
   right: 0;
   left: 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .filters :hover{
@@ -261,9 +266,9 @@ body {
   font-family: 'Fredericka the Great', cursive;
   font-family: 'Pangolin', cursive;
   text-decoration:none;
-  text-shadow: 2px 2px 5px rgb(97, 36, 167);
+  text-shadow: 2px 0px 8px rgb(83, 176, 204);
   color: rgba(20, 19, 20, 0.8);
-  background: rgba(70, 134, 136, 0.733);
+  background: rgba(70, 75, 73, 0.884);
   padding: 3px ;
   border-radius: 5px;
   font-weight:bold;
@@ -298,7 +303,8 @@ html .clear-completed:active {
 .clear-completed:hover {
   text-decoration: underline;
   text-shadow: 1px 1px 5px rgb(10, 1, 15);
-  color:rgba(60, 247, 222, 0.836);
+  font-weight: bold;
+  color:rgba(129, 209, 212, 0.89);
   
 }
 

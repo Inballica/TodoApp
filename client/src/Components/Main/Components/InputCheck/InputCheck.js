@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+/*import React, { useContext } from "react";
 import TodoContext from "../../../../context/TodoContext/TodoContext";
 
 const InputCheck = () => {
@@ -21,4 +21,5 @@ const InputCheck = () => {
   );
 };
 
-export default InputCheck; 
+export default ; 
+ */
