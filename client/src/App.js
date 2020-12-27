@@ -21,7 +21,6 @@ function App() {
               <Switch>
                 <Route exact path='/' component={TodoList} />
                 <Route exact path='/update' component={UpdateInputTodo} />
-
                 <Route exact path='/active' component={ActiveTodoList} />
                 <Route exact path='/completed' component={CompletedTodoList} />
               </Switch>
